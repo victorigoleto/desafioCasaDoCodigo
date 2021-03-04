@@ -14,7 +14,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Abra o GitBash e clone o repositório para sua máquina:
 ```
-git clone https://github.com/victorigoleto/itauAPIWEB.git
+git clone https://github.com/victorigoleto/desafioCasaDoCodigo.git
 ```
 
 ## ☕ Usando a API Casa do Codigo
