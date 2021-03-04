@@ -7,7 +7,7 @@ Desafio técnico de construção de uma API que simule a editora Casa do Código
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou a versão mais recente de `<JDK Java 11 / IDE Eclipse ou Netbeans / XAMPP / Git e GitHub / MySQL Workbench 8>`
+* Você instalou a versão mais recente de `<JDK Java 11 / IDE Eclipse ou Netbeans / XAMPP / Git e GitHub / MySQL Workbench 8 / Postman>`
 * Você tem uma máquina `<Windows / Mac / Linux>`.
 
 ## 🚀 Instalando a API Casa do Codigo
@@ -20,6 +20,7 @@ git clone https://github.com/victorigoleto/itauAPIWEB.git
 ## ☕ Usando a API Casa do Codigo
 
 Abra o XAMPP e a sua IDE de escolha e siga esses passos:
+OBS: Caso tenha o MySql Driver juntamente instalado com o MySQL Workbench não é necessario acioná-lo
 
 ```
 Acione o Apache e o MySQL clicando em Start em ambos
@@ -34,26 +35,21 @@ Agora abra sua IDE de escolha e importa o seu projeto clicando em "Existing Mave
 
 
 ```
-Com seu projeto importado execute a aplicação na classe padrão "LoginApplication" clicando em Run As -> Java Aplication ou Spring Boot App (caso esteja no Spring Tool Suite) 
+Com seu projeto importado execute a aplicação na classe padrão "CasaDoCodigoApplication" clicando em Run As -> Java Aplication ou Spring Boot App (caso esteja no Spring Tool Suite) 
 ```
-<img src="https://i.imgur.com/66DI12s.png" alt="Rodando a aplicação">
-
-```
-Agora abra o seu navegador web e digite "http://localhost:8080/", irá aparecer o formulario api web
-```
-<img src="https://i.imgur.com/Ux3rdq8.png" alt="Formulario api web">
+<img src="https://i.imgur.com/oTCVvDd.png" alt="Rodando a aplicação">
 
 
 ```
-As tratativas de erro foram feitas em HTML/JavaScript com o plugin de alerta SweetAlert2
+Agora abra o Postman e faça alguma requisição para simular uma API Web. Neste caso, usei o POST para cadastrar um novo autor
 ```
-<img src="https://i.imgur.com/KhjdAZQ.png" alt="Tratativa de Erro">
-<img src="https://i.imgur.com/3YLG451.png" alt="Tratativa de Erro">
+<img src="https://i.imgur.com/3hkogih.png" alt="Cadastrando um novo autor">
+
 
 ```
 Para verificar se os dados foram inseridos corretamente, abra o MySQL WorkBench 8 e cria uma nova query executando os seguintes comandos:
 ```
-<img src="https://i.imgur.com/TcRYAEu.png" alt="MySQL WorkBench">
+<img src="https://i.imgur.com/6BTli5F.png" alt="MySQL WorkBench">
 
 
 
